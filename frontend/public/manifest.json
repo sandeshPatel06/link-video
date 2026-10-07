@@ -1,0 +1,16 @@
+{
+  "short_name": "VidScript",
+  "name": "VidScript — Video to Script & Video to Text AI Converter",
+  "description": "Convert video links to scripts, video to text, and audio files into accurate transcripts and SRT subtitles with Whisper AI.",
+  "start_url": "/",
+  "background_color": "#06080d",
+  "theme_color": "#2563eb",
+  "display": "standalone",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ]
+}

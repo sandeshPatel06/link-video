@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: linkvideo-api
+    runtime: docker
+    region: oregon
+    plan: free
+    autoDeploy: true
+    branch: main
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/health
+    envVars:
+      - key: PORT
+        value: "8000"
+      - key: TRANSCRIPTION_MODEL
+        value: "base"
+      - key: DEFAULT_LANGUAGE
+        value: "auto"
+      - key: OUTPUT_DIR
+        value: "/app/outputs"
+      - key: TEMP_DIR
+        value: "/app/temp"

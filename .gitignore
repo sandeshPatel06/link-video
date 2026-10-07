@@ -1,0 +1,39 @@
+# Python
+backend/.venv/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Environment variables
+.env
+backend/.env
+frontend/.env
+*.env
+
+# Outputs and temp files
+outputs/*
+!outputs/.gitkeep
+temp/*
+!temp/.gitkeep
+
+# Wrangler & Cloudflare
+.wrangler/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

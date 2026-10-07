@@ -1,0 +1,6 @@
+# VidScript (SHP Technology) robots.txt
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://linkvideo.shptechnology.online/sitemap.xml
